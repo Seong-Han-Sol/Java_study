@@ -23,6 +23,9 @@ public class Main {
 		}
 		menu.showMenu();
 		
+		sc.close();
+		s.close(); //스캐너 사용후엔 닫아주는 게 좋음
+		
 
 	}
 

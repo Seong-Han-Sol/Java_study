@@ -10,6 +10,11 @@ public class Menu {
 		this.alName = new ArrayList<String>();
 		this.alPrice = new ArrayList<Integer>();
 	}
+	/* 생성자 - 주로 초기화 작업용. (위에선 생성자와 관련없이 init로 초기화를 사용했음)
+	 *  이름이 클래스와 같아야 함
+	 *  반환값이 없다.
+	 *  new 연산자가 실행된 후 자동실행 
+	 */
 	
 	void addName(String name) {
 		this.alName.add(name);
